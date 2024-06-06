@@ -17,7 +17,7 @@ class TestClass(BaseClass):
         self.driver.find_element(By.XPATH, "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div["
                                            "1]/div[1]/div[2]/input[1]").send_keys("Toronto")
         time.sleep(2)
-        log.info("checking available rentalss")
+        log.info("checking available rentalss1")
         self.driver.find_element(By.XPATH, "//div[@class='data text-dark w-100 py-3 px-3']/i").click()
         self.driver.find_element(By.XPATH, "//input[@placeholder=' Pickup Date']").click()
         time.sleep(2)
